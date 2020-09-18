@@ -41,6 +41,7 @@ func blue():
 	set_collision_mask_bit(1,true)
 	set_collision_mask_bit(2,false)
 
+	
 
 func _on_Timer_timeout():
 	choose()
@@ -49,3 +50,4 @@ func _on_Timer_timeout():
 func _on_Delete_body_entered(body):
 	body.queue_free()
 	queue_free()
+	
